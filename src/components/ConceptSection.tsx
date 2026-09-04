@@ -29,7 +29,6 @@ export const ConceptSection: React.FC<ConceptSectionProps> = ({ onOpenEnterprise
       stepNumber: '01',
       title: 'Micro Singularity Containment & Magnetic Torus Trap',
       tag: 'Kugelblitz Genesis',
-      formula: 'r_s = \\frac{2GM}{c^2} \\approx 10^{-18} \\text{ m}',
       description:
         'A synthetic micro black hole generated via ultra-relativistic laser compression (Kugelblitz). Held securely in absolute vacuum suspension inside a superconducting magnetic quadrupole torus trap.',
       keyAspects: [
@@ -43,9 +42,8 @@ export const ConceptSection: React.FC<ConceptSectionProps> = ({ onOpenEnterprise
       stepNumber: '02',
       title: 'Superradiant Penrose Scattering & Ergosphere Energy Extraction',
       tag: 'Kerr Frame Dragging',
-      formula: '\\eta = 1 - \\sqrt{\\frac{1 + \\sqrt{1-a^2}}{2}} \\approx 120.7\\%',
       description:
-        'Electromagnetic wave packets are injected into the rotating Ergosphere ($a = 0.998$). Through superradiant wave scattering, escaping packets extract rotational kinetic energy from the spacetime frame-dragging vortex with theoretical efficiency exceeding 120%.',
+        'Electromagnetic wave packets are injected into the rotating Ergosphere (near-extremal spin). Through superradiant wave scattering, escaping packets extract rotational kinetic energy from the spacetime frame-dragging vortex with theoretical efficiency exceeding 120%.',
       keyAspects: [
         'Frame-dragging rotational kinetic harvesting',
         'Negative energy orbits sink into the event horizon',
@@ -57,7 +55,6 @@ export const ConceptSection: React.FC<ConceptSectionProps> = ({ onOpenEnterprise
       stepNumber: '03',
       title: 'Hawking Quantum Radiation Collector',
       tag: 'Quantum Evaporation',
-      formula: 'P = \\frac{\\hbar c^6}{15360 \\pi G^2 M^2}',
       description:
         'Near the event horizon, virtual particle-antiparticle pairs split due to quantum tidal forces. Outgoing Hawking radiation in the hard gamma-ray spectrum is captured by parabolic resonant metamaterial photovoltaic arrays.',
       keyAspects: [
@@ -71,7 +68,6 @@ export const ConceptSection: React.FC<ConceptSectionProps> = ({ onOpenEnterprise
       stepNumber: '04',
       title: 'Enterprise Grid Coupling (Hyperscale & Global Infrastructure)',
       tag: 'Unlimited Clean Energy Source',
-      formula: 'P_{net} \\ge 100 \\text{ TW continuous}',
       description:
         'Zero-loss high-temperature superconducting (HTS) busbars feed continuous, gigawatt/terawatt-scale clean energy directly to critical telecom backbones (5G/6G cell towers & data centers), hyperscale AI compute clusters, and smart city grids.',
       keyAspects: [
@@ -247,11 +243,6 @@ export const ConceptSection: React.FC<ConceptSectionProps> = ({ onOpenEnterprise
                     <h4 className="text-base font-bold font-['Space_Grotesk'] text-slate-100 mb-2 leading-snug">
                       {step.title}
                     </h4>
-
-                    {/* Formula Pill */}
-                    <div className="my-2 p-2 rounded-lg bg-black/50 border border-slate-800 font-mono text-xs text-cyan-300/90 overflow-x-auto">
-                      {step.formula}
-                    </div>
 
                     <p className="text-xs font-['Space_Grotesk'] text-slate-400 leading-relaxed mt-2">
                       {step.description}

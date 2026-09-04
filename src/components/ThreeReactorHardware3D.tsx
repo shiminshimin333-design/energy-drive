@@ -30,7 +30,7 @@ export const ThreeReactorHardware3D: React.FC = () => {
       subtitle: 'Kugelblitz Mass Genesis & Infall Injection Ring',
       specs: '8 Petawatt Pulsed Lasers • Femtosecond Optical Synchronization',
       description:
-        'Focuses ultra-intense coherent photon packets to create and replenish the event horizon mass while actively driving the Kerr spin parameter ($a = 0.998$).',
+        'Focuses ultra-intense coherent photon packets to create and replenish the event horizon mass while actively driving the Kerr spin parameter at near-extremal velocity (0.998c).',
       color: '#c084fc',
     },
     {

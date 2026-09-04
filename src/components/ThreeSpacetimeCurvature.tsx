@@ -289,10 +289,10 @@ export const ThreeSpacetimeCurvature: React.FC = () => {
             <div className="absolute top-6 left-6 p-3 rounded-2xl bg-slate-950/80 backdrop-blur-md border border-slate-800 text-xs font-mono space-y-1">
               <div className="text-cyan-300 font-bold flex items-center gap-1.5">
                 <Compass className="w-3.5 h-3.5" />
-                <span>{'KERR METRIC: ds² = g_μν dx^μ dx^ν'}</span>
+                <span>KERR SPACETIME GEOMETRY</span>
               </div>
               <p className="text-slate-400 text-[11px]">
-                {'Ergosphere Boundary: r_E(θ) = GM/c² + √(G²M²/c⁴ - a²cos²θ)'}
+                Rotating Frame Dragging & Gravitational Ergosphere Vortex
               </p>
             </div>
 
@@ -315,7 +315,7 @@ export const ThreeSpacetimeCurvature: React.FC = () => {
               {/* Spin Slider */}
               <div className="space-y-1.5">
                 <div className="flex justify-between items-center text-slate-300">
-                  <span>KERR SPIN PARAMETER ($a$):</span>
+                  <span>KERR SPIN PARAMETER:</span>
                   <span className="text-cyan-300 font-bold text-sm">{spin.toFixed(2)} c</span>
                 </div>
                 <input
@@ -328,15 +328,15 @@ export const ThreeSpacetimeCurvature: React.FC = () => {
                   className="w-full accent-cyan-400 cursor-pointer h-1.5 bg-slate-800 rounded-lg"
                 />
                 <div className="flex justify-between text-[10px] text-slate-500">
-                  <span>0.0 (Schwarzschild)</span>
-                  <span>0.998 (Extremal Kerr)</span>
+                  <span>0.0 (Static)</span>
+                  <span>0.998 (Near-Light Limit)</span>
                 </div>
               </div>
 
               {/* Mass Slider */}
               <div className="space-y-1.5">
                 <div className="flex justify-between items-center text-slate-300">
-                  <span>GRAVITATIONAL MASS ($M$):</span>
+                  <span>GRAVITATIONAL MASS:</span>
                   <span className="text-purple-300 font-bold text-sm">{mass.toFixed(1)} M₀</span>
                 </div>
                 <input

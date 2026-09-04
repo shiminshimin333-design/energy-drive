@@ -83,17 +83,6 @@ export const Footer: React.FC<FooterProps> = ({
             <ul className="space-y-2 text-slate-400">
               <li>
                 <a
-                  href="https://youtube.com/shorts/5Ixzs8jJpn0?si=s7EsvIUt-Suu6O6P"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1.5 hover:text-cyan-300 transition-colors"
-                >
-                  <span>Concept Video Reference</span>
-                  <ExternalLink className="w-3 h-3 text-cyan-400" />
-                </a>
-              </li>
-              <li>
-                <a
                   href="#hero-section"
                   className="hover:text-slate-200 transition-colors"
                 >

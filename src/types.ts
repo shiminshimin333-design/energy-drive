@@ -38,7 +38,7 @@ export interface PhysicsStep {
   stepNumber: string;
   title: string;
   tag: string;
-  formula: string;
+  formula?: string;
   description: string;
   keyAspects: string[];
   color: string;

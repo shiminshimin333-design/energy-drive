@@ -61,7 +61,7 @@ export const ProblemSection: React.FC = () => {
                 Fossil fuels.
               </h3>
               <p className="text-sm font-['Space_Grotesk'] text-slate-400 leading-relaxed">
-                Chemical combustion yields only 0.0000001% mass-to-energy conversion ($E = mc^2$).
+                Chemical combustion yields only 0.0000001% mass-to-energy conversion (E = mc²).
               </p>
               <div className="mt-4 pt-3 border-t border-slate-900 text-xs font-mono text-red-400/90 flex items-center justify-center gap-1.5">
                 <AlertTriangle className="w-3.5 h-3.5" />

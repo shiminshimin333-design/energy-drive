@@ -351,15 +351,15 @@ export const ConceptVisualizer: React.FC<ConceptVisualizerProps> = ({
         <div className="absolute top-3 left-3 p-2.5 rounded-xl bg-slate-950/80 backdrop-blur-md border border-slate-800 text-xs font-mono space-y-1.5 pointer-events-none">
           <div className="flex items-center gap-2 text-slate-300">
             <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
-            <span>$r_+$ Event Horizon: 2GM/c²</span>
+            <span>Event Horizon: Gravitational Boundary</span>
           </div>
           <div className="flex items-center gap-2 text-purple-300">
             <span className="w-2 h-2 rounded-full bg-purple-500"></span>
-            <span>$r_E$ Ergosphere: Static Limit</span>
+            <span>Ergosphere: Frame Dragging Zone</span>
           </div>
           <div className="flex items-center gap-2 text-emerald-300">
             <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-            <span>Superradiant Output: &gt;120%</span>
+            <span>Superradiant Output: &gt;120% Energy Yield</span>
           </div>
         </div>
 

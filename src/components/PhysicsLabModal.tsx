@@ -77,7 +77,7 @@ export const PhysicsLabModal: React.FC<PhysicsLabModalProps> = ({
             {/* Kerr Spin parameter */}
             <div className="space-y-2 p-3.5 rounded-xl bg-slate-950/70 border border-slate-800">
               <div className="flex justify-between items-center">
-                <span className="text-slate-300 font-semibold">KERR SPIN PARAMETER ($a$):</span>
+                <span className="text-slate-300 font-semibold">KERR SPIN PARAMETER:</span>
                 <span className="text-cyan-400 font-bold text-sm">{params.spin.toFixed(3)} c</span>
               </div>
               <input
